@@ -1,0 +1,10 @@
+@host = http://localhost:5001
+@productId = asdfasdf
+@reviewId = asdfasdf
+@token = ey..dev
+
+###
+
+GET {{host}}/products/{{productId}}
+Authorization: Bearer {{token}}
+Accept: application/json

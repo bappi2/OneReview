@@ -1,0 +1,3 @@
+GET {{host}}/products/{{productId}}/reviews/{{reviewId}}
+Authorization: Bearer {{token}}
+Accept: application/json
